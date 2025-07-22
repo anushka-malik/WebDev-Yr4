@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Blog</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="blogs.html">Blogs</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Add a New Blog</h2>
+   <form id="blogForm">
+  <input type="text" id="title" placeholder="Title" required /><br /><br />
+  <input type="text" id="author" placeholder="Author" required /><br /><br />
+  <input type="text" id="category" placeholder="Category" required /><br /><br />
+  <textarea id="description" rows="8" cols="50" placeholder="Blog Description" required></textarea><br /><br />
+  <button type="submit">Submit Blog</button>
+</form>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
